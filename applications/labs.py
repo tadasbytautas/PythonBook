@@ -68,10 +68,10 @@ def conditionals_two(input_1, input_2, user_bool):
 # Create a for loop that will call and output the result of your method from the
 # Conditionals 2 task 10 times.
 
-def recursion():
-    new_list = []
+def recursion(input_1, input_2, user_bool):
+    new_list = ""
     for i in range(10):
-        new_list =+ conditionals_two([i])
+        new_list =+ conditionals_two(input_1, input_2, user_bool)
     return new_list
 
 # Lists
