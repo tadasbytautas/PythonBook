@@ -1,6 +1,7 @@
 import pytest
 from applications import labs
 
+
 # def test_hello_world():
 #     assert labs.hello_world() == "Hello World!"
 #
@@ -26,3 +27,7 @@ def test_conditionals_two():
     assert labs.conditionals(5, 12, False) == 60
     assert labs.conditionals(1, 0, True) == 1
     assert labs.conditionals(-1, 12, False) == -12
+    assert labs.conditionals(0, 0, False) == 0
+
+def test_recursion():
+    assert labs.recursion(0, 12, True) == 12

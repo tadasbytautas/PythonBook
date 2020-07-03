@@ -5,6 +5,7 @@
 def hello_world():
     return "Hello World!"
 
+
 # Assignment
 # Store “Hello World!” in a variable, then output it to the console.
 def storeHello():
@@ -62,10 +63,16 @@ def conditionals_two(input_1, input_2, user_bool):
     elif not con:
         return int1 * int2
 
+
 # Recursion
 # Create a for loop that will call and output the result of your method from the
 # Conditionals 2 task 10 times.
 
+def recursion():
+    new_list = []
+    for i in range(10):
+        new_list =+ conditionals_two([i])
+    return new_list
 
 # Lists
 # Create a list with 10 integer values in it, then call and output the first element in the list.
