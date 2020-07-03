@@ -22,12 +22,17 @@ from applications import labs
 #     assert labs.conditionals(-1, 12, True) == 11
 #     assert labs.conditionals(-1, 12, False) == -12
 
-def test_conditionals_two():
+# def test_conditionals_two():
+#     assert labs.conditionals(0, 12, True) == 12
+#     assert labs.conditionals(5, 12, False) == 60
+#     assert labs.conditionals(1, 0, True) == 1
+#     assert labs.conditionals(-1, 12, False) == -12
+#     assert labs.conditionals(0, 0, False) == 0
+
+def test_recursion():
+    assert labs.recursion(5, 12, False) == "60606060606060606060"
+    assert labs.recursion(3, 12, False) == "36363636363636363636"
     assert labs.conditionals(0, 12, True) == 12
-    assert labs.conditionals(5, 12, False) == 60
     assert labs.conditionals(1, 0, True) == 1
     assert labs.conditionals(-1, 12, False) == -12
     assert labs.conditionals(0, 0, False) == 0
-
-def test_recursion():
-    assert labs.recursion(0, 12, True) == 12
