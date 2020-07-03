@@ -14,8 +14,8 @@ def storeHello():
 
 # Parameters
 # Create a method that gets a string from the user, and then outputs that string to the console.
-def newString(input):
-    new = str(input)
+def newString():
+    new = str(input("new string: "))
     return new
 
 
@@ -30,13 +30,13 @@ def sumOfInts(input1, input2):
 # Conditionals
 # Modify your method from the Parameters/Operators task to accept another parameter, a Boolean, which if it is true,
 # the method will print a sum of the two numbers, and if it is false it will print the multiplication of the two numbers.
-def conditionals(input1, input2):
-    int1 = int(input1)
-    int2 = int(input2)
-    con = True
+def conditionals(input_1, input_2, user_bool):
+    int1 = int(input_1)
+    int2 = int(input_2)
+    con = user_bool
     if con:
         return int1 + int2
-    else:
+    elif not con:
         return int1 * int2
 
 
@@ -45,10 +45,10 @@ def conditionals(input1, input2):
 # if this is true then print the other non-0 number.
 # Input -> 1, 0 Return 1
 # Input -> 1, 2 Return 3
-def conditionalsTwo():
-    int1 = int(input("input for int nr 1"))
-    int2 = int(input("input for int nr 2"))
-    con = True
+def conditionals_two(input_1, input_2, user_bool):
+    int1 = int(input_1)
+    int2 = int(input_2)
+    con = user_bool
 
     if int1 == 0:
         return int2
@@ -59,7 +59,7 @@ def conditionalsTwo():
 
     if con:
         return int1 + int2
-    else:
+    elif not con:
         return int1 * int2
 
 # Recursion
