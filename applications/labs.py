@@ -76,6 +76,11 @@ def recursion(input_1, input_2, user_bool):
 
 # Lists
 # Create a list with 10 integer values in it, then call and output the first element in the list.
+def newList(num):
+    l = []
+    for i in range(10):
+        l =+ int(num)
+    return l
 
 # Recursion/Lists
 # Using your list that you created in the Lists task, create a loop that iterates through your list, outputting the values contained within it.
