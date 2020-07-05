@@ -96,6 +96,9 @@ def rec_newList(num):
 # 1,2,3,4…
 # 10,20,30,40…
 
+def cool_rec_list():
+
+
 # User input
 # Modify the previous task to take input from the user, taking an integer off of the user and using that integer to determine how large the array is going to be.
 
