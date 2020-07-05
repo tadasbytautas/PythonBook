@@ -71,7 +71,7 @@ def conditionals_two(input_1, input_2, user_bool):
 def recursion(input_1, input_2, user_bool):
     new_list = ""
     for i in range(10):
-        new_list =+ conditionals_two(input_1, input_2, user_bool)
+        new_list += str(conditionals_two(input_1, input_2, user_bool))
     return new_list
 
 # Lists
