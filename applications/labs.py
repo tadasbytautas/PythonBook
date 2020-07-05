@@ -74,16 +74,21 @@ def recursion(input_1, input_2, user_bool):
         new_list += str(conditionals_two(input_1, input_2, user_bool))
     return new_list
 
+
 # Lists
 # Create a list with 10 integer values in it, then call and output the first element in the list.
 def newList(num):
-    l = []
-    for i in range(10):
-        l =+ int(num)
-    return l
+    l = [0,1,2,3,4,5,6,7,8,9]
+    return l[num]
+
 
 # Recursion/Lists
 # Using your list that you created in the Lists task, create a loop that iterates through your list, outputting the values contained within it.
+def rec_newList(num):
+    new = []
+    for i in range(newList(num)):
+        new.append(i)
+    return new
 
 # Recursion/Lists
 # Create a loop that populates a list with values, outputting them at each iteration. Then create another loop that iterates through the array, changing the values at each point to equal itself times 10, outputting them at each iteration.
